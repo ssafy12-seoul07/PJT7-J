@@ -1,6 +1,7 @@
 <template>
-  <div>
-    <h2>App Vue</h2>
+  <div>    
+    <h1>SSAFIT Board</h1>    
+    <router-view></router-view>
   </div>
 </template>
 
@@ -9,5 +10,7 @@
 </script>
 
 <style scoped>
-
+  h1 {
+    text-align: center;
+  }
 </style>
